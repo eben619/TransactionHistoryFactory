@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/ebenezer/Desktop/Web3bridge/24FEB/contracts/TransactionHistoryFactory.sol": {
+      "lastModificationDate": 1708962836756,
+      "contentHash": "8232a7357c42075839e16263a494d974",
+      "sourceName": "contracts/TransactionHistoryFactory.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TransactionTracker.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TransactionHistoryFactory"
+      ]
+    },
+    "/home/ebenezer/Desktop/Web3bridge/24FEB/contracts/TransactionTracker.sol": {
+      "lastModificationDate": 1708963236596,
+      "contentHash": "dd7f7e8b8f44b1c4f21fabe819ee3bbd",
+      "sourceName": "contracts/TransactionTracker.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TransactionTracker"
+      ]
+    }
+  }
+}
